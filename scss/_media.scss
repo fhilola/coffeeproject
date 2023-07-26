@@ -28,9 +28,40 @@
         }
     }
     main{
+       .container{
         .collection{
-          max-width: 100%;
-        }
+            max-width: 100%;
+          }
+          .main-images{
+            display: flex;
+            flex-wrap: wrap;
+              .box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: 100%;
+                // margin-bottom: 47px;
+                img{
+                    max-width: 100%;
+                }
+                div{
+                    text-align: center;
+                    max-width: 100%;
+                    h4{
+                        margin-top: 0;
+                        max-width: 100%;
+                    }
+                    p{
+                        max-width: 300px;
+                        text-align: left;
+                        margin: 0;
+                        padding-top: 24px;
+                        max-width: 100%;
+                    }
+                }
+              }
+          }
+       }
     }
 }
 
@@ -59,24 +90,22 @@
                     line-height: 25px;
                     margin-top: 24px;
                     margin-bottom: 39px;
-                }
-                button{
-
-                }
             }
         }
     }
-    main{
-        .collection{
-            img{
-                max-width: 100%;
-            }
-          }
+        }
+        main{
+            .collection{
+                img{
+                    max-width: 100%;
+                }
+              }
+            .main-images{
+                .box{
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                }
+       }
     }
 }
-
-
-
-
-
-
