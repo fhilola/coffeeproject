@@ -32,6 +32,7 @@
 
 @media only screen and (max-width: 500px){
     header{
+        background-repeat: no-repeat;
         nav{
             ul{
                 display: none;
@@ -43,11 +44,12 @@
         .hero{
             .hero-content{
                 text-align: center;
+                margin: 24px 100px;
                 h1{
                     font-size: 40px;
                     text-align: center;
                     line-height: 40px;
-                    max-width: 279px;
+                    max-width: 300px;
                     margin: 0 auto;
                 }
                 p{
