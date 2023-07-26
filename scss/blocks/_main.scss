@@ -1,14 +1,19 @@
 main{
     .collection{
         text-align: center;
+        margin: 0 auto;
         margin-top: 136px;
+        
+        img{
+            max-width: 100%;
+        }
     }
-    .coffee{
-        margin-top: -70px;
-        text-align: center;
-        .main-images{
+       
+    .main-images{
             gap: 0 30px;
             display: grid;
+            margin-top: -70px;
+            text-align: center;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: calc(193px + 71px + 134px);
             .box{
@@ -105,4 +110,3 @@ main{
             }
         }
     }
-}
