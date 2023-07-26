@@ -1,0 +1,108 @@
+main{
+    .collection{
+        text-align: center;
+        margin-top: 136px;
+    }
+    .coffee{
+        margin-top: -70px;
+        text-align: center;
+        .main-images{
+            gap: 0 30px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: calc(193px + 71px + 134px);
+            .box{
+                h4{
+                    margin-top: 71px;
+                    color: #333D4B;
+                    text-align: center;
+                    font-family: 'Fraunces';
+                    font-size: 24px;
+                    font-weight: 900;
+                    line-height: 32px;
+                }
+                p{
+                    color: #333D4B;
+                    text-align: center;
+                    font-family: 'Barlow';
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    width: 255px;
+                    margin: 0 auto;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+    .big-content{
+        background-color: #2C343E;
+        margin-top: 200px;
+        border-radius: 10px;
+        h2{
+            color: #FEFCF7;
+            text-align: center;
+            font-family: 'Fraunces';
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 48px; 
+            padding-top: 100px;
+            padding-bottom: 32px;
+        }
+        p{
+            color: #fefcf784;
+            text-align: center;
+            font-family: 'Barlow';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            width: 540px;
+            margin: 0 auto;
+            padding-bottom: 86px;
+        }
+        .card-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0 30px;
+            .card{
+                background: #0E8784;
+                border-radius: 8px;
+                width: 350px;
+                height: 382px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                transition: 0.3s;
+                margin-bottom: 60px;
+                img{
+                    margin-top: 72px;
+                }
+                h3{
+                    color: #FEFCF7;
+                    text-align: center;
+                    font-family: 'Fraunces';
+                    font-size: 24px;
+                    font-weight: 900;
+                    line-height: 32px;
+                    margin-top: 56px;
+                    margin-bottom: 24px;
+                }
+                p{
+                    color: #fefcf776;
+                    font-family: 'Barlow';
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    width: 255px;
+                }
+                &:hover{
+                    border-radius: 8px;
+                    background: #0A6260;
+                }
+            }
+        }
+    }
+}
