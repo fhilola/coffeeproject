@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     header{
         .hero{
             background-position: center;
@@ -34,12 +34,15 @@
           }
           .main-images{
             display: flex;
+            text-align: center;
             flex-wrap: wrap;
               .box{
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 max-width: 100%;
+                text-align: center;
+                margin: 0 auto;
                 // margin-bottom: 47px;
                 img{
                     max-width: 100%;
@@ -138,6 +141,7 @@
                 }
             }
             .big-content{
+                margin-top: 120px;
                 height: 982px;
                 p{
                     padding: 0 24px;

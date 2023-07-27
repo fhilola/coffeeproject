@@ -81,6 +81,10 @@ main{
                 justify-content: center;
                 transition: 0.3s;
                 margin-bottom: 60px;
+                &:hover{
+                    border-radius: 8px;
+                    background: #0A6260;
+                }
                    div{
                     padding: 48px;
                     h3{
@@ -112,9 +116,6 @@ main{
                     margin-top: 72px;
                 }
                 
-                &:hover{
-                    border-radius: 8px;
-                    background: #0A6260;
-                }
+               
             }
         }
