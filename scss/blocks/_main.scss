@@ -34,7 +34,7 @@ main{
                     font-style: normal;
                     font-weight: 400;
                     line-height: 26px;
-                    width: 255px;
+                    max-width: 255px;
                     margin: 0 auto;
                     margin-top: 24px;
                 }
@@ -62,7 +62,7 @@ main{
             font-size: 16px;
             font-weight: 400;
             line-height: 26px;
-            width: 540px;
+            max-width: 540px;
             margin: 0 auto;
             padding-bottom: 86px;
         }
@@ -74,39 +74,47 @@ main{
             .card{
                 background: #0E8784;
                 border-radius: 8px;
-                width: 350px;
-                height: 382px;
+                max-width: 350px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
                 transition: 0.3s;
                 margin-bottom: 60px;
+                   div{
+                    padding: 48px;
+                    h3{
+                        color: #FEFCF7;
+                        text-align: center;
+                        font-family: 'Fraunces';
+                        font-size: 24px;
+                        font-weight: 900;
+                        line-height: 32px;
+                        margin-top: 56px;
+                        margin-bottom: 24px;
+                    }
+                    p{
+                        color: #fefcf776;
+                        font-family: 'Barlow';
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        max-width: 255px;
+                    }
+                   }
+                }
+                .card:last-child{
+                    img{
+                        padding-top: 20px;
+                    }
+                }
                 img{
                     margin-top: 72px;
                 }
-                h3{
-                    color: #FEFCF7;
-                    text-align: center;
-                    font-family: 'Fraunces';
-                    font-size: 24px;
-                    font-weight: 900;
-                    line-height: 32px;
-                    margin-top: 56px;
-                    margin-bottom: 24px;
-                }
-                p{
-                    color: #fefcf776;
-                    font-family: 'Barlow';
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 26px;
-                    width: 255px;
-                }
+                
                 &:hover{
                     border-radius: 8px;
                     background: #0A6260;
                 }
             }
         }
-    }

@@ -52,15 +52,39 @@
                         max-width: 100%;
                     }
                     p{
-                        max-width: 300px;
+                        max-width: 282px;
                         text-align: left;
                         margin: 0;
                         padding-top: 24px;
-                        max-width: 100%;
                     }
                 }
               }
           }
+       }
+       .big-content{
+        height: 863px;
+        p{
+            padding: 0 74px;
+        }
+        .card-wrapper{
+            display: flex;
+            flex-direction: column;
+            margin-top: 70px;
+            .card{
+                display: flex;
+                width: 573px;
+                margin-top: 24px;
+                img{
+                    max-width: 55px;
+                    display: inline-block;
+                }
+                div{
+                    p{
+                        max-width: 344px;
+                    }
+                }
+            }
+        }
        }
     }
 }
@@ -93,7 +117,8 @@
             }
         }
     }
-        }
+}
+
         main{
             .collection{
                 img{
@@ -101,11 +126,22 @@
                 }
               }
             .main-images{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
                 .box{
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
+                    margin-bottom: 47px;
                 }
-       }
-    }
+            }
+            .big-content{
+                height: 982px;
+                p{
+                    padding: 0 24px;
+                }
+            }
+        }
 }
